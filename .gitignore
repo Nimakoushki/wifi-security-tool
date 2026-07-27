@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+wifi_tool_state.json
+settings.json
+*.cap
+*.log
+dist/
+build/
+*.spec
+sample_wordlist.txt
+*.exe
+.DS_Store
