@@ -75,38 +75,6 @@ python main.py
 ⚙️ تنظیمات
    به تب Settings بروید و تنظیمات را شخصی‌سازی کنید.
 
-
-🧰 ساخت فایل exe
-
-۱. مسیر customtkinter را پیدا کنید:
-   pip show customtkinter
-
-۲. دستور打包 را اجرا کنید:
-   python -m PyInstaller --onefile --windowed --add-data "مسیر/customtkinter;customtkinter/" --hidden-import darkdetect --hidden-import packaging --hidden-import packaging.version main.py
-
-۳. فایل exe در پوشه dist ساخته میشود.
-
-
-📁 ساختار پروژه
-
-wifi-security-tool/
-├── main.py
-├── core/
-│   └── wifi_password_finder.py
-├── gui/
-│   ├── scan_tab.py
-│   ├── handshake_tab.py
-│   ├── crack_tab.py
-│   ├── settings_tab.py
-│   └── about_tab.py
-├── utils/
-│   ├── exit_handler.py
-│   └── wifi_scanner.py
-└── wifi_wordlist.txt
-
-
-⚠️ تذکر اخلاقی
-
 این ابزار فقط برای:
 ✅ تست شبکه شخصی خودتان
 ✅ یادگیری و آموزش
